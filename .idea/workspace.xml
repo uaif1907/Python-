@@ -3,32 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3f1e848e-0f69-4e47-8aa2-a742f4ed291f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/01Python基础/基础.md" beforeDir="false" afterPath="$PROJECT_DIR$/01Python基础/基础.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06网络编程/01.md" beforeDir="false" afterPath="$PROJECT_DIR$/06网络编程/01.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/01Python基础/基础.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/01Python基础/基础.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/01Python基础/基础.md" beforeDir="false" afterPath="$PROJECT_DIR$/_book/01Python基础/基础.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/02网络爬虫/01.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/02网络爬虫/01.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/03多任务编程/多任务.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/03多任务编程/多任务.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/04数据库开发/01.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/04数据库开发/01.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/05web开发/web开发.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/05web开发/web开发.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/06网络编程/01.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/06网络编程/01.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/06网络编程/01.md" beforeDir="false" afterPath="$PROJECT_DIR$/_book/06网络编程/01.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/gitbook/fonts/fontawesome/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/_book/gitbook/fonts/fontawesome/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/gitbook/gitbook-plugin-fontsettings/fontsettings.js" beforeDir="false" afterPath="$PROJECT_DIR$/_book/gitbook/gitbook-plugin-fontsettings/fontsettings.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/gitbook/gitbook-plugin-fontsettings/website.css" beforeDir="false" afterPath="$PROJECT_DIR$/_book/gitbook/gitbook-plugin-fontsettings/website.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/gitbook/gitbook-plugin-highlight/ebook.css" beforeDir="false" afterPath="$PROJECT_DIR$/_book/gitbook/gitbook-plugin-highlight/ebook.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/gitbook/gitbook-plugin-highlight/website.css" beforeDir="false" afterPath="$PROJECT_DIR$/_book/gitbook/gitbook-plugin-highlight/website.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/gitbook/gitbook-plugin-lunr/lunr.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/_book/gitbook/gitbook-plugin-lunr/lunr.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/gitbook/gitbook-plugin-lunr/search-lunr.js" beforeDir="false" afterPath="$PROJECT_DIR$/_book/gitbook/gitbook-plugin-lunr/search-lunr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/gitbook/gitbook-plugin-search/lunr.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/_book/gitbook/gitbook-plugin-search/lunr.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/gitbook/gitbook-plugin-search/search-engine.js" beforeDir="false" afterPath="$PROJECT_DIR$/_book/gitbook/gitbook-plugin-search/search-engine.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/gitbook/gitbook-plugin-search/search.css" beforeDir="false" afterPath="$PROJECT_DIR$/_book/gitbook/gitbook-plugin-search/search.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/gitbook/gitbook-plugin-search/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/_book/gitbook/gitbook-plugin-search/search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/gitbook/gitbook-plugin-sharing/buttons.js" beforeDir="false" afterPath="$PROJECT_DIR$/_book/gitbook/gitbook-plugin-sharing/buttons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/gitbook/gitbook.js" beforeDir="false" afterPath="$PROJECT_DIR$/_book/gitbook/gitbook.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/gitbook/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/_book/gitbook/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/gitbook/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/_book/gitbook/theme.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/search_index.json" beforeDir="false" afterPath="$PROJECT_DIR$/_book/search_index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02网络爬虫/01.md" beforeDir="false" afterPath="$PROJECT_DIR$/02网络爬虫/01.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_book/01Python基础/基础.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
-              <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
               <folding>
                 <element signature="e#22758#22764#0" expanded="true" />
                 <element signature="e#22775#22781#0" expanded="true" />
@@ -55,6 +30,30 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02网络爬虫/01.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="385">
+                <caret line="81" column="9" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/01Python基础/基础.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="340">
+                <caret line="126" column="14" selection-start-line="126" selection-start-column="14" selection-end-line="126" selection-end-column="14" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -63,19 +62,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/02网络爬虫/01.md" />
         <option value="$PROJECT_DIR$/06网络编程/01.md" />
         <option value="$PROJECT_DIR$/_book/06网络编程/01.md" />
         <option value="$PROJECT_DIR$/_book/03多任务编程/多任务.md" />
         <option value="$PROJECT_DIR$/_book/01Python基础/基础.md" />
+        <option value="$PROJECT_DIR$/02网络爬虫/01.md" />
         <option value="$PROJECT_DIR$/01Python基础/基础.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
+    <option name="x" value="537" />
+    <option name="y" value="11" />
     <option name="width" value="980" />
-    <option name="height" value="1040" />
+    <option name="height" value="1087" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -89,6 +89,36 @@
               <item name="Python_Interview" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python_Interview" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Python_Interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_Interview" type="462c0819:PsiDirectoryNode" />
+              <item name="01Python基础" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python_Interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_Interview" type="462c0819:PsiDirectoryNode" />
+              <item name="02网络爬虫" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python_Interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_Interview" type="462c0819:PsiDirectoryNode" />
+              <item name="03多任务编程" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python_Interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_Interview" type="462c0819:PsiDirectoryNode" />
+              <item name="04数据库开发" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python_Interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_Interview" type="462c0819:PsiDirectoryNode" />
+              <item name="05web开发" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python_Interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_Interview" type="462c0819:PsiDirectoryNode" />
+              <item name="06网络编程" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -97,6 +127,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -130,16 +161,18 @@
       <workItem from="1572964869066" duration="1197000" />
       <workItem from="1572966302146" duration="40000" />
       <workItem from="1572966383991" duration="1159000" />
+      <workItem from="1572970704334" duration="993000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2699000" />
+    <option name="totallyTimeSpent" value="3692000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27010724" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14142092" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -166,16 +199,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/02网络爬虫/01.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="60" selection-start-column="60" selection-end-column="60" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_book/04数据库开发/01.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1311" />
@@ -244,20 +267,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01Python基础/基础.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="114">
-            <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_book/01Python基础/基础.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
           <folding>
             <element signature="e#22758#22764#0" expanded="true" />
             <element signature="e#22775#22781#0" expanded="true" />
@@ -266,6 +279,26 @@
             <element signature="e#23229#23235#0" expanded="true" />
             <element signature="e#23245#23251#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02网络爬虫/01.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="385">
+            <caret line="81" column="9" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01Python基础/基础.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="340">
+            <caret line="126" column="14" selection-start-line="126" selection-start-column="14" selection-end-line="126" selection-end-column="14" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
