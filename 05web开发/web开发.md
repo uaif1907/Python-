@@ -168,6 +168,176 @@ HTTP/2使用多路技术，允许多个消息在一个连接上同时交差。
 8、nodejs中间件代理跨域
 9、WebSocket协议跨域
 ```
+#### 21.什么是Flask,有什么优点？
+```
+Flask是一个Web框架,就是提供一个工具,库和技术来允许你构建一个Web应用程序.这个Web应用程序可以是一些Web页面,博客,wiki,基于Web的日里应用或商业网站.
+　优点:
+　　Flask属于微框架（micro-framework)这一类别,微架构通常是很小的不依赖外部库的框架.
+　　- 框架很轻量
+　　- 更新时依赖小
+　　- 专注于安全方面的bug
+Flask的依赖:
+　　Werkzeug 一个WSGI工具包（web服务网关接口（Python Web Server Gateway Interface,缩写为WSGI）是为python语言定义的web服务器和web应用程序或框架之间的一种简单而通用的借口,其他语言也有类似的接口）
+　　jinja2模板引擎
+```
+#### 22.Flask-WTF是什么,有什么特点？
+```
+Flask-wtf是一个用于表单处理,校验并提供csrf验证的功能的扩展库
+Flask-wtf能把正表单免受CSRF<跨站请求伪造>的攻击
+```
+#### 23.Flask脚本的常用方式是什么?
+```
+在shell中运行脚本文件
+在python编译器中run
+```
+#### 24.如何在Flask中访问会话?
+```
+会话（seesion）会话数据存储在服务器上.会话是客户端登录到服务器并注销的时间间隔.需要在此会话中进行的数据存储在服务器上的临时目录中.
+from flask import session 导入会话对象
+session['name'] = 'admin' 给会话添加变量
+session.pop('username', None) 删除会话的变量
+```
+#### 25.解释Python Flask中的数据库连接?
+```
+python中的数据库连接有两种方式:
+在脚本中以用第三方库正常连接,用sql语句正常操作数据库,如mysql关系型数据库的pymsql库
+用ORM来进行数据库连接,flask中典型的flask_sqlalchemy,已面向对象的方式进行数据库的连接与操作
+```
+#### 26.Flask框架依赖组件?
+```
+Route(路由)
+templates(模板)
+Models(orm模型)
+blueprint(蓝图)
+Jinja2模板引擎
+```
+#### 27.Flask蓝图的作用?
+```
+蓝图Blueprint实现模块化的应用
+- book_bp = Blueprint('book', __name__）创建蓝图对象
+- 蓝图中使用路由@book_bp.route('url')
+- 在另一.py文件里导入和注册蓝图from book import book_bp app.register_blueprint(book_bp)
+作用:
+　　将不同的功能模块化
+　　构建大型应用
+　　优化项目结构
+　　增强可读性,易于维护（跟Django的view功能相似）
+```
+#### 28.列举使用过的Flask第三方组件?
+```
+flask_bootstrap
+flask-WTF
+flask_sqlalchemy
+```
+#### 29.简述Flask上下文管理流程?
+```
+每次有请求过来的时候,flask会先创建当前线程或者进程需要处理的两个重要上下文对象,把它们保存到隔离的栈里面,这样视图函数进行处理的时候就能直接从栈上获取这些信息.
+```
+#### 30.Flask中多app应用是怎么完成?
+```
+请求进来时,可以根据URL的不同,交给不同的APP处理
+```
+#### 31.wtforms组件的作用?
+```
+WTForms是一个支持多个web框架的form组件,主要用于对用户请求数据进行验证.
+```
+#### 32.Flask框架默认session处理机制?
+```
+Flask的默认session利用了Werkzeug的SecureCookie,把信息做序列化(pickle)后编码(base64),放到cookie里了.
+过期时间是通过cookie的过期时间实现的.
+为了防止cookie内容被篡改,session会自动打上一个叫session的hash串,这个串是经过session内容、SECRET_KEY计算出来的,看得出,这种设计虽然不能保证session里的内容不泄露,但至少防止了不被篡改.
+```
+#### 33.ORM的实现原理?
+```
+概念: 对象关系映射（Object Relational Mapping,简称ORM,或O/RM,或O/R mapping）,是一种程序技术,用于实现面向对象编程语言里不同类型系统的数据之间的转换.
+详细介绍:
+让我们从O/R开始.字母O起源于"对象"(Object),而R则来自于"关系"(Relational).几乎所有的程序里面,都存在对象和关系数据库.在业务逻辑层和用户界面层中,我们是面向对象的.当对象信息发生变化的时候,我们需要把对象的信息保存在关系数据库中.
+当你开发一个应用程序的时候(不使用O/R Mapping),你可能会写不少数据访问层的代码,用来从数据库保存,删除,读取对象信息,等等.你在DAL中写了很多的方法来读取对象数据,改变状态对象等等任务.而这些代码写起来总是重复的.
+ORM解决的主要问题是对象关系的映射.域模型和关系模型分别是建立在概念模型的基础上的.域模型是面向对象的,而关系模型是面向关系的.一般情况下,一个持久化类和一个表对应,类的每个实例对应表中的一条记录,类的每个属性对应表的每个字段.
+　　ORM技术特点：
+　　1.提高了开发效率.由于ORM可以自动对Entity对象与数据库中的Table进行字段与属性的映射,所以我们实际可能已经不需要一个专用的、庞大的数据访问层.
+　　2.ORM提供了对数据库的映射,不用sql直接编码,能够像操作对象一样从数据库获取数据.
+```
+#### 34.什么是wsgi?
+```
+WSGI（Web Server Gateway Interface，Web 服务器网关接口）则是Python语言中1所定义的Web服务器和Web应用程序之间或框架之间的通用接口标准。
+WSGI就是一座桥梁，桥梁的一端称为服务端或网关端，另一端称为应用端或者框架端，WSGI的作用就是在协议之间进行转化。WSGI将Web组件分成了三类：Web 服务器（WSGI Server）、Web中间件（WSGI Middleware）与Web应用程序（WSGI Application）。
+Web Server接收HTTP请求，封装一系列环境变量，按照WSGI接口标准调用注册的WSGI Application，最后将响应返回给客户端。
+```
+#### 35.Django和Flask有什么区别?
+```
+Flask
+Flask确实很“轻”，不愧是Micro Framework，从Django转向Flask的开发者一定会如此感慨，除非二者均为深入使用过
+Flask自由、灵活，可扩展性强，第三方库的选择面广，开发时可以结合自己最喜欢用的轮子，也能结合最流行最强大的Python库
+入门简单，即便没有多少web开发经验，也能很快做出网站
+非常适用于小型网站
+非常适用于开发web服务的API
+开发大型网站无压力，但代码架构需要自己设计，开发成本取决于开发者的能力
+各方面性能均等于或优于Django
+Django自带的或第三方的好评如潮的功能，Flask上总会找到与之类似第三方
+Flask灵活开发，Python高手基本都会喜欢Flask，但对Django却可能褒贬不
+Flask与关系型数据库的配合使用不弱于Django，而其与NoSQL数据库的配合远远优于Django
+Flask比Django更加Pythonic，与Python的philosophy更加吻合
+Django
+Django太重了，除了web框架，自带ORM和模板引擎，灵活和自由度不够高
+Django能开发小应用，但总会有“杀鸡焉用牛刀”的感觉
+Django的自带ORM非常优秀，综合评价略高于SQLAlchemy
+Django自带的模板引擎简单好用，但其强大程度和综合评价略低于Jinja2
+Django自带ORM也使Django与关系型数据库耦合度过高，如果想使用MongoDB等NoSQL数据，需要选取合适的第三方库，且总感觉Django+SQL才是天生一对的搭配，Django+NoSQL砍掉了Django的半壁江山
+Django目前支持Jinja等非官方模板引擎
+Django自带的数据库管理app好评如潮
+Django非常适合企业级网站的开发：快速、靠谱、稳定
+Django成熟、稳定、完善，但相比于Flask，Django的整体生态相对封闭
+Django是Python web框架的先驱，用户多，第三方库最丰富，最好的Python库，如果不能直接用到Django中，也一定能找到与之对应的移植
+Django上手也比较容易，开发文档详细、完善，相关资料丰富
+```
+#### 36.Flask中上下文管理主要涉及到了那些相关的类？并描述类主要作用？
+```
+RequestContext  #封装进来的请求（赋值给ctx）
+AppContext      #封装app_ctx
+LocalStack      #将local对象中的数据维护成一个栈（先进后出）
+Local           #保存请求上下文对象和app上下文对象
+```
+#### 37.为什么要Flask把Local对象中的的值stack 维护成一个列表
+```
+# 因为通过维护成列表，可以实现一个栈的数据结构，进栈出栈时只取一个数据，巧妙的简化了问题。
+# 还有，在多app应用时，可以实现数据隔离；列表里不会加数据，而是会生成一个新的列表
+# local是一个字典，字典里key（stack）是唯一标识，value是一个列表
+
+```
+#### 38.SQLAlchemy如何执行原生SQL？
+```
+# 使用execute方法直接操作SQL语句(导入create_engin、sessionmaker)
+engine=create_engine('mysql://root:*****@127.0.0.1/database?charset=utf8')
+DB_Session = sessionmaker(bind=engine)
+session = DB_Session()
+session.execute('alter table mytablename drop column mycolumn ;')
+```
+#### 39.SQLAchemy中如何为表设置引擎和字符编码？
+```
+sqlalchemy设置编码字符集，一定要在数据库访问的URL上增加'charset=utf8'
+否则数据库的连接就不是'utf8'的编码格式
+
+eng=create_engine('mysql://root:root@localhost:3306/test2?charset=utf8',echo=True)
+1. 设置引擎编码方式为utf8。
+    engine = create_engine("mysql+pymysql://root:123456@127.0.0.1:3306/sqldb01?charset=utf8")
+2. 设置数据库表编码方式为utf8
+class UserType(Base):
+    __tablename__ = 'usertype'
+    id = Column(Integer, primary_key=True)
+    caption = Column(String(50), default='管理员')
+    # 添加配置设置编码
+    __table_args__ = {
+        'mysql_charset':'utf8'
+    }
+这样生成的SQL语句就自动设置数据表编码为utf8了,__table_args__还可设置存储引擎、外键约束等等信息。
+```
+#### 40.SQLAchemy中如何设置联合唯一索引？
+```
+通过'UniqueConstraint'字段来设置联合唯一索引
+__table_args=(UniqueConstraint('h_id','username',name='_h_username_uc'))
+#h_id和username组成联合唯一约束
+```
 #### CSRF攻击
 https://www.jianshu.com/p/67408d73c66d
 #### SQL注入
